@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 1</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+</head>
+
+<body>
+    <h1>Gráficos Comparativos entre Regiones</h1>
+    <div id="regiones">
+        <input type="checkbox" id="Amazonas" value="Amazonas">
+        <label for="Amazonas">Amazonas</label><br>
+        <input type="checkbox" id="Ancash" value="Ancash">
+        <label for="Ancash">Ancash</label><br>
+        <input type="checkbox" id="Apurimac" value="Apurimac">
+        <label for="Apurimac">Apurimac</label><br>
+        <input type="checkbox" id="Arequipa" value="Arequipa">
+        <label for="Arequipa">Arequipa</label><br>
+        <input type="checkbox" id="Ayacucho" value="Ayacucho">
+        <label for="Ayacucho">Ayacucho</label><br>
+        <input type="checkbox" id="Cajamarca" value="Cajamarca">
+        <label for="Cajamarca">Cajamarca</label><br>
+        <input type="checkbox" id="Callao" value="Callao">
+        <label for="Callao">Callao</label><br>
+        <input type="checkbox" id="Cusco" value="Cusco">
+        <label for="Cusco">Cusco</label><br>
+        <input type="checkbox" id="Huancavelica" value="Huancavelica">
+        <label for="Huancavelica">Huancavelica</label><br>
+        <input type="checkbox" id="Huanuco" value="Huanuco">
+        <label for="Huanuco">Huanuco</label><br>
+        <input type="checkbox" id="Ica" value="Ica">
+        <label for="Ica">Ica</label><br>
+        <input type="checkbox" id="Junin" value="Junin">
+        <label for="Junin">Junin</label><br>
+        <input type="checkbox" id="LaLibertad" value="La Libertad">
+        <label for="LaLibertad">La Libertad</label><br>
+        <input type="checkbox" id="Lambayeque" value="Lambayeque">
+        <label for="Lambayeque">Lambayeque</label><br>
+        <input type="checkbox" id="Lima" value="Lima">
+        <label for="Lima">Lima</label><br>
+        <input type="checkbox" id="Loreto" value="Loreto">
+        <label for="Loreto">Loreto</label><br>
+        <input type="checkbox" id="MadreDeDios" value="Madre de Dios">
+        <label for="MadreDeDios">Madre de Dios</label><br>
+        <input type="checkbox" id="Moquegua" value="Moquegua">
+        <label for="Moquegua">Moquegua</label><br>
+        <input type="checkbox" id="Pasco" value="Pasco">
+        <label for="Pasco">Pasco</label><br>
+        <input type="checkbox" id="Piura" value="Piura">
+        <label for="Piura">Piura</label><br>
+        <input type="checkbox" id="Puno" value="Puno">
+        <label for="Puno">Puno</label><br>
+        <input type="checkbox" id="SanMartin" value="San Martin">
+        <label for="SanMartin">San Martin</label><br>
+        <input type="checkbox" id="Tacna" value="Tacna">
+        <label for="Tacna">Tacna</label><br>
+        <input type="checkbox" id="Tumbes" value="Tumbes">
+        <label for="Tumbes">Tumbes</label><br>
+        <input type="checkbox" id="Ucayali" value="Ucayali">
+        <label for="Ucayali">Ucayali</label><br>
+    </div>
+    <button onclick="generarGrafico()">Generar Gráfico</button>
+    <div>
+        <canvas id="grafico"></canvas>
+    </div>
+
+    <script src="./problema1.js"></script>
+</body>
+
+</html>
